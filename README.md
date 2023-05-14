@@ -2,8 +2,8 @@
 First project and MyWebsite
 
 # todo list
-[ ] home page
-[ ] nav bar
-[ ] search photos
-[ ] projects page
-[ ] contact page 
+- [ ] home page
+- [ ] nav bar
+- [ ] search photos
+- [ ] projects page
+- [ ] contact page 
