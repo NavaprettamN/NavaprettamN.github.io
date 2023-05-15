@@ -88,11 +88,6 @@ section img#profilePic{
     width: 100%;
     mix-blend-mode:lighten;
 }
-/* .block1 {
-    display: flexbox;
-    align-items: center;
-    z-index: 1000;
-} */
 
 #text1{
     position: absolute;
@@ -110,6 +105,28 @@ section img#profilePic{
     color: #6f6ccb;
     background:hsl(0, 0%, 100%);
     font-size: 1.5em;
-    
-    
+
+}
+.block1 {
+    margin-top: 7%;
+    display: grid;
+    grid-template-rows: auto;
+}
+.block1 img{
+    grid-column: 1;
+    border-radius: 10%;
+}
+.block1 p{
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+.block1 h1{
+    margin: 1%;
+    padding: 5%;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
 }
