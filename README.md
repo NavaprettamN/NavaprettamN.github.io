@@ -3,10 +3,10 @@ First project and MyWebsite
 
 # todo list
 - [ ] home page
-    <ul><li>[x] Done</li><li>[ ] Pending</li></ul>
+    - [x] Done
+-     [ ] Pending
 
 - [ ] nav bar
 - [ ] search photos
 - [ ] projects page
 - [ ] contact page
-- [] 
