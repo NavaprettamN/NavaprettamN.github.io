@@ -4,8 +4,7 @@ First project and MyWebsite
 # todo list
 - [ ] home page
     - [x] Done
--     [ ] Pending
-
+    - [ ] Pending
 - [ ] nav bar
 - [ ] search photos
 - [ ] projects page
