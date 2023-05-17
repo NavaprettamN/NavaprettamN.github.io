@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppings", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 
 header
 {
+    background-color: #2a105573;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,8 +33,6 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-
 }
 
 header ul{
@@ -57,18 +57,18 @@ header ul li a{
 header ul li a:hover, 
 header ul li a.active 
 {
-    background-color: #ffff;
+    background-color: #fff;
     color: #2b1055;
 }
 
-section {
+#sec1 {
     position: relative;
     width: 100%;
     height: 100vh;
     padding: 100px;
 }
 
-section img
+#sec1 img
 {
     position: absolute;
     top: 0;
@@ -78,27 +78,35 @@ section img
     object-fit: cover;
     pointer-events: none;
 }
-section img#white_bg{
+#sec1 img#white_bg{
     z-index: -1;
     mix-blend-mode: multiply;
     
 }
-section img#profilePic{
+#sec1 img#profilePic{
     z-index: -1;
     width: 100%;
     mix-blend-mode:lighten;
 }
 
-#text1{
-    position: absolute;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text1 {
     font-size: 1in;
     color:hsl(0, 10%, 37%);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-bottom: 5%;
 }
 
 #btn {
+    margin-top: 0%;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 40px;
