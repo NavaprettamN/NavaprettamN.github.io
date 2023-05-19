@@ -138,3 +138,50 @@ header ul li a.active
     grid-column: 2;
     grid-row: 1;
 }
+
+.block2 {
+    margin-top: 7%;
+    display: grid;
+    grid-template-rows: auto;
+
+}
+.block2 img{
+    grid-column: 2;
+    grid-row: 1/4;
+    border-radius: 10%;
+}
+.block2 p{
+    /* margin: 10%; */
+    padding: 5%;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+.block2 h1{
+    /* margin-bottom: 1%; */
+    padding: 5%;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+/* .block2{
+    margin-top: 10%;
+    display: grid;
+    grid-template-areas: 'head head head head image image image'
+                         'text text text text image image image' ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.block2 img{
+    grid-area: image;
+}
+
+.block2 p{
+    grid-area: text;
+}
+
+.block2 h1{
+    grid-area: head;
+} */
