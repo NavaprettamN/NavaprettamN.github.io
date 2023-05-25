@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-family: "Poppings", sans-serif;
     scroll-behavior: smooth;
+    color: #fff;
 }
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#2b1055, hsl(0, 0%, 49%));
+    background: linear-gradient(#000000, hsl(248, 36%, 20%));
 }
 
 header
@@ -61,51 +62,23 @@ header ul li a.active
     color: #2b1055;
 }
 
-#sec1 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    padding: 100px;
-}
-
-#sec1 img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
-}
-#sec1 img#white_bg{
-    z-index: -1;
-    mix-blend-mode: multiply;
-    
-}
-#sec1 img#profilePic{
-    z-index: -1;
-    width: 100%;
-    mix-blend-mode:lighten;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
+.sec1 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-#text1 {
-    font-size: 1in;
-    color:hsl(0, 10%, 37%);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.sec1 #profilePic{
+    width: 31%;
+    grid-row: 1/3;
+    grid-column: 2/3;
 }
 
-#btn {
+.sec1 #btn{
+    grid-row: 3/4;
+    grid-column: 1/2;
     margin-top: 0%;
     text-decoration: none;
     padding: 10px 30px;
@@ -115,6 +88,7 @@ header ul li a.active
     font-size: 1.5em;
 
 }
+
 .block1 {
     margin-top: 7%;
     display: grid;
@@ -143,16 +117,16 @@ header ul li a.active
     margin-top: 7%;
     display: grid;
     grid-template-rows: auto;
-
+    /* grid-template-columns: auto; */
 }
 .block2 img{
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1/4;
     border-radius: 10%;
 }
-.block2 p{
+.block2 h2{
     /* margin: 10%; */
-    padding: 5%;
+    padding: 3%;
     text-align: center;
     grid-column: 1;
     grid-row: 2;
@@ -163,6 +137,10 @@ header ul li a.active
     text-align: center;
     grid-column: 1;
     grid-row: 1;
+}
+
+.block2 a{
+    text-decoration: none;
 }
 /* .block2{
     margin-top: 10%;
