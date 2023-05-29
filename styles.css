@@ -64,29 +64,44 @@ header ul li a.active
 
 .sec1 {
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.sec1 #profilePic{
-    width: 31%;
-    grid-row: 1/3;
-    grid-column: 2/3;
+.sec1 #black_bg{
+    width: 100%;
+
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
 }
 
-.sec1 #btn{
-    grid-row: 3/4;
-    grid-column: 1/2;
-    margin-top: 0%;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 40px;
-    color: #6f6ccb;
-    background:hsl(0, 0%, 100%);
-    font-size: 1.5em;
+.sec1 #profilePic{
+    width: 100%;
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    mix-blend-mode: darken;
+}
 
+.sec1 #sec1-1{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#text1 {
+    font-size: 4em;
+    padding-bottom: 10%;
+}
+
+#btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 40px;
+    background: #fff;
+    color: #000000;
+    font-size: 1.2em;
 }
 
 .block1 {
