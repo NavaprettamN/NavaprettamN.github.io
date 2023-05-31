@@ -90,6 +90,11 @@ header ul li a.active
     grid-row: 2;
 }
 
+.sec1 p {
+    grid-column: 1;
+    grid-row: 2;
+}
+
 #text1 {
     font-size: 4em;
     padding-bottom: 10%;
