@@ -117,24 +117,42 @@ header ul li a.active
 }
 
 .aboutme {
-    margin: 5%;
+    margin: 3%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 .aboutme #heading{
+    font-size: larger;
     align-self: center;
+    margin-bottom: 5%;
 }
 
 .aboutme #content{
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    column-gap: 10%;
+    padding-left: 10%;
     align-content: center;
+}
+
+.aboutme p{
+    padding-top: 10%;
+    padding-right: 10%;
 }
 
 .aboutme img{
     border-radius: 10%;
     width: 20%;
+}
+
+.projects{
+    background-color: #000000;
+    padding-top: 3%;
+}
+
+.projects h1{
+    text-align: center;
+    justify-content: center;
 }
